@@ -1,0 +1,37 @@
+# Security Review — File Fingerprints
+#
+# SHA-256 hashes of every file in this review package, plus the
+# corresponding source files in the live codebase.  Regenerate by
+# running `python verify_security.py` at the repo root.
+#
+# If the "live" hash differs from the "review" hash for the same file,
+# the review package is stale.  Re-copy from the live source and
+# update this file before distributing to an auditor.
+#
+# Captured from commit:        852370e3225ba2b02d4fdd41d70c80b69bebbf37
+# Branch:                      claude/improve-stake-security-LIASL
+#
+# ─── Review snapshot (the files you are reading) ────────────────────
+1498e9c910664a63bcd00b345f5e809f4c43dd8cf9608f3447c0d59eca5f3dc3  security-review/tx_builder.py
+fc9717d39ab69cb58e4207e57116a39c8c57571b1e5368af94fae9fdc310b26a  security-review/wc_substrate.py
+38bdabaa5f69e7b690dd672081e19c6f947cf6cc82780258ed9200e0b456616b  security-review/wallet_manager.py
+#
+# ─── Live source (what the bot actually runs) ───────────────────────
+1498e9c910664a63bcd00b345f5e809f4c43dd8cf9608f3447c0d59eca5f3dc3  bot/services/tx_builder.py
+fc9717d39ab69cb58e4207e57116a39c8c57571b1e5368af94fae9fdc310b26a  bot/services/wc_substrate.py
+38bdabaa5f69e7b690dd672081e19c6f947cf6cc82780258ed9200e0b456616b  wallet_manager.py
+#
+# ─── Review-only documentation (not in live codebase) ───────────────
+#
+# The following files are review-only and have no live counterpart.
+# Their hashes are listed so an auditor can confirm they match what
+# the operator distributed.
+#
+# Regenerate when editing:
+#   sha256sum security-review/api_tx_handlers.py \
+#             security-review/README.md \
+#             security-review/FINGERPRINTS.txt
+#
+# api_tx_handlers.py and README.md hashes are intentionally not
+# pinned here because they are reference material, not auditable
+# code — pinning them would create noise on every doc edit.

@@ -176,11 +176,12 @@ All stake/unstake endpoints validate:
 4. Read the four files. The total is ~2 300 lines. Focus on the
    properties P1–P5 above.
 
-## Bounty
+## Responsible disclosure
 
 If you can demonstrate any practical exploit against user funds in
 the code in this directory — including (but not limited to) a
 server-side signing vulnerability, a fee-diversion bug, a bypass of
 the amount bounds, or a way to replay a signed extrinsic with a
-modified call — contact the operator before disclosing. Bounty
-details are in [`SECURITY.md`](../SECURITY.md).
+modified call — please contact the operator before public disclosure.
+Contact details and disclosure timelines are in
+[`SECURITY.md`](../SECURITY.md).

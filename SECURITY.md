@@ -146,23 +146,11 @@ funds, please **do not open a public issue**. Instead:
 3. Give the operator a reasonable window (7–14 days depending on
    severity) to ship a fix before public disclosure.
 
-### Bug bounty
+### Scope
 
-The following rewards apply at the operator's discretion, paid in TAO
-to an address of your choice after the fix ships and you confirm the
-payment:
-
-| Severity | Reward |
-|---|---|
-| Critical — steal user funds, forge signatures, bypass non-custodial property | up to 10 TAO |
-| High — fee diversion, amount-bound bypass, unauthenticated admin access | up to 3 TAO |
-| Medium — replay attack, rate-limit bypass, reliable DoS | up to 1 TAO |
-| Low — information disclosure, minor input validation issues | up to 0.2 TAO |
-
-Out of scope for the bounty: social engineering, physical attacks,
-attacks requiring a compromised user device, UI polish issues, issues
-already disclosed, and issues in third-party dependencies (report
-those upstream).
+Out of scope: social engineering, physical attacks, attacks requiring
+a compromised user device, UI polish issues, issues already disclosed,
+and issues in third-party dependencies (report those upstream).
 
 ## Supply chain
 

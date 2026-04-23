@@ -7,7 +7,7 @@ It contains everything needed to independently verify that the bot
 cannot access user funds:
 
 - **[SECURITY.md](./SECURITY.md)** — Core promise, threat model,
-  and bug bounty tiers.
+  and responsible-disclosure contact.
 - **[security-review/](./security-review/)** — Byte-identical
   copies of the ~2 300 lines of wallet-touching Python code,
   with formal security properties P1–P5.
@@ -34,7 +34,7 @@ references the source commit hash, so you can match any snapshot
 here to the exact state of the live bot at that moment.
 
 This mirror's most recent sync was from
-[`taosubnet-io/tao-subnet-bot@8fda41d`](https://github.com/taosubnet-io/tao-subnet-bot/commit/8fda41d823fff2eb3d7b7aae1e40b2406b9b9fd1).
+[`taosubnet-io/tao-subnet-bot@f6ce620`](https://github.com/taosubnet-io/tao-subnet-bot/commit/f6ce6207ba0ed65d4afbaf9b674abc50d53d2d6e).
 
 ## Reporting a vulnerability
 
